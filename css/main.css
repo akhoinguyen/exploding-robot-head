@@ -59,11 +59,15 @@ body {
 }
 
 .robot:hover > .robot-head-left {
-  top: 0;
+  top: -10%;
   left: 0;
 }
 
 .robot:hover > .robot-head-right {
-  top: 0;
+  top: -10%;
   right: 0;
+}
+
+.robot:hover > .robot-brain {
+  top: 0;
 }
